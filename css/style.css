@@ -73,6 +73,11 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    border: 2px solid white;
+}
+
+.column a:hover {
+    background-color: transparent;
 }
 
 
@@ -86,6 +91,18 @@ body {
 
 .container .suvs a {
     color: var(--darkCyan);
+}
+
+.container .sedans a:hover {
+    color: white;
+}
+
+.container .luxury a:hover {
+    color: white;
+}
+
+.container .suvs a:hover {
+    color: white;
 }
 
 .button {
